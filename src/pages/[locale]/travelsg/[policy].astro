@@ -1,0 +1,37 @@
+---
+import { getCollection, render } from 'astro:content';
+import PolicyLayout from '@/layouts/PolicyLayout.astro';
+
+export async function getStaticPaths() {
+  const allPolicies = await getCollection('policies');
+  
+  return allPolicies.map((entry) => {
+    // entry.id usually looks like "en/travelsg-privacy"
+    const [locale, docName] = entry.id.split('/');
+    
+    // Extract policy name from the filename.
+    let policy = '';
+    if (docName === 'travelsg-privacy') {
+      policy = 'privacy';
+    } else if (docName === 'travelsg-terms') {
+      policy = 'terms';
+    }
+
+    return {
+      params: { locale, policy },
+      props: { entry },
+    };
+  }).filter(path => path.params.policy !== '');
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<PolicyLayout 
+  title={entry.data.title} 
+  app={entry.data.app} 
+  lastUpdated={entry.data.lastUpdated}
+>
+  <Content />
+</PolicyLayout>

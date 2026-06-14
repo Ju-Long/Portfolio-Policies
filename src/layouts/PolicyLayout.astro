@@ -1,0 +1,261 @@
+---
+interface Props {
+  title: string;
+  app: string;
+  lastUpdated: string;
+}
+
+const { title, app, lastUpdated } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content={`${app} ${title}`} />
+    <meta name="viewport" content="width=device-width" />
+    <title>{title} | {app}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="background-effects">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+    </div>
+
+    <main class="container">
+      <header class="header">
+        <div class="app-badge">
+          <span class="dot"></span>
+          <span class="app-name">{app}</span>
+        </div>
+        <h1 class="title">{title}</h1>
+        <p class="meta">Last updated: {lastUpdated}</p>
+      </header>
+
+      <article class="markdown-body">
+        <slot />
+      </article>
+    </main>
+  </body>
+</html>
+
+<style is:global>
+  :root {
+    --bg-color: #f8fafc;
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
+    --text-tertiary: #94a3b8;
+    --accent: #3b82f6;
+    --accent-light: #eff6ff;
+    --border: #e2e8f0;
+    --glass-bg: rgba(255, 255, 255, 0.7);
+    --glass-border: rgba(255, 255, 255, 0.5);
+    --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    font-family: var(--font-sans);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  .background-effects {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    pointer-events: none;
+    overflow: hidden;
+    background: linear-gradient(180deg, var(--accent-light) 0%, var(--bg-color) 400px);
+  }
+
+  .blob {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(80px);
+    opacity: 0.4;
+    mix-blend-mode: multiply;
+    animation: float 10s infinite ease-in-out alternate;
+  }
+
+  .blob-1 {
+    top: -10%;
+    right: -5%;
+    width: 400px;
+    height: 400px;
+    background-color: #93c5fd;
+  }
+
+  .blob-2 {
+    top: 20%;
+    left: -10%;
+    width: 300px;
+    height: 300px;
+    background-color: #c4b5fd;
+    animation-delay: 2s;
+  }
+
+  @keyframes float {
+    0% { transform: translate(0px, 0px) scale(1); }
+    33% { transform: translate(30px, -50px) scale(1.1); }
+    66% { transform: translate(-20px, 20px) scale(0.9); }
+    100% { transform: translate(0px, 0px) scale(1); }
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 4rem 1.5rem;
+  }
+
+  .header {
+    margin-bottom: 3rem;
+  }
+
+  .app-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.35rem 1rem;
+    background: var(--glass-bg);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  }
+
+  .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--accent);
+  }
+
+  .app-name {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+  }
+
+  .title {
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+  }
+
+  .meta {
+    color: var(--text-secondary);
+    font-weight: 500;
+    font-size: 0.95rem;
+  }
+
+  /* Markdown Body Styles */
+  .markdown-body {
+    background: var(--glass-bg);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    padding: clamp(1.5rem, 5vw, 3.5rem);
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.02), 0 10px 15px -3px rgba(0,0,0,0.02);
+  }
+
+  .markdown-body h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--border);
+    letter-spacing: -0.01em;
+  }
+
+  .markdown-body h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .markdown-body p {
+    margin-bottom: 1.25rem;
+    color: var(--text-secondary);
+  }
+
+  .markdown-body strong {
+    color: var(--text-primary);
+    font-weight: 600;
+  }
+
+  .markdown-body ul, 
+  .markdown-body ol {
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    color: var(--text-secondary);
+  }
+
+  .markdown-body li {
+    margin-bottom: 0.5rem;
+  }
+
+  .markdown-body li::marker {
+    color: var(--text-tertiary);
+  }
+
+  .markdown-body a {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+
+  .markdown-body a:hover {
+    color: #2563eb;
+    text-decoration: underline;
+  }
+
+  .markdown-body table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    font-size: 0.95rem;
+  }
+
+  .markdown-body th {
+    background-color: var(--bg-color);
+    padding: 1rem;
+    text-align: left;
+    font-weight: 600;
+    border-bottom: 2px solid var(--border);
+  }
+
+  .markdown-body td {
+    padding: 1rem;
+    border-bottom: 1px solid var(--border);
+    color: var(--text-secondary);
+  }
+
+  .markdown-body tr:last-child td {
+    border-bottom: none;
+  }
+</style>
