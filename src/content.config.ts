@@ -6,7 +6,10 @@ const policiesCollection = defineCollection({
   schema: z.object({
     title: z.string(),
     app: z.string(),
-    lastUpdated: z.string()
+    lastUpdated: z.string(),
+    lastUpdatedLabel: z.string().default('Last updated'),
+    contentLanguage: z.string().default('en'),
+    draft: z.boolean().default(false),
   }),
 });
 

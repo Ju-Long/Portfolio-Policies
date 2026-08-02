@@ -11,7 +11,7 @@ application and its accompanying extensions — the Apple Watch app, home-screen
 widgets, Live Activities and Siri intents (together, the "**App**").
 
 By downloading, installing or using the App, you agree to be bound by these Terms
-and by our [Privacy Policy](PRIVACY_POLICY.md). If you do not agree, please do not
+and by our [Privacy Policy](../privacy/). If you do not agree, please do not
 use the App.
 
 These Terms are between you and BaBaSaMa. They are not entered into with Apple, and
