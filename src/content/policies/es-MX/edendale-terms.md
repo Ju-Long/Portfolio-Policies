@@ -4,7 +4,7 @@ app: "Edendale"
 lastUpdated: "2 de agosto de 2026"
 lastUpdatedLabel: "Última actualización"
 contentLanguage: "es-MX"
-draft: true
+draft: false
 ---
 > **Traducción del borrador en inglés.** Antes de publicar, confirma la
 > identidad jurídica y la dirección del responsable y somete a revisión legal

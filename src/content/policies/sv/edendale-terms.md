@@ -4,7 +4,7 @@ app: "Edendale"
 lastUpdated: "2 augusti 2026"
 lastUpdatedLabel: "Senast uppdaterad"
 contentLanguage: "sv"
-draft: true
+draft: false
 ---
 > **Översättning av det engelska utkastet.** Bekräfta operatörens juridiska
 > identitet och adress före publicering och låt en jurist granska avsnitten om

@@ -4,7 +4,7 @@ app: "Edendale"
 lastUpdated: "2026年8月2日"
 lastUpdatedLabel: "最後更新"
 contentLanguage: "zh-Hant"
-draft: true
+draft: false
 ---
 
 > **英文草稿譯本。** 發布前請確認營運者的法定名稱與地址，並就本文件取得法律審閱。本範本不能取代法律意見。各語言版本如有歧異，以英文版本為準。

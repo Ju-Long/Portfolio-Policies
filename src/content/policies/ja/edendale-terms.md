@@ -4,7 +4,7 @@ app: "Edendale"
 lastUpdated: "2026年8月2日"
 lastUpdatedLabel: "最終更新日"
 contentLanguage: "ja"
-draft: true
+draft: false
 ---
 > **英語版ドラフトの翻訳です。** 公開前に、運営者の法的名称と住所を確定し、責任および準拠法に関する条項について法務レビューを受けてください。各言語版の間に相違がある場合は、英語版が優先します。
 

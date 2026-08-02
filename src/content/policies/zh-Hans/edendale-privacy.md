@@ -4,7 +4,7 @@ app: "Edendale"
 lastUpdated: "2026年8月2日"
 lastUpdatedLabel: "最后更新"
 contentLanguage: "zh-Hans"
-draft: true
+draft: false
 ---
 
 > **英文草案译本。** 发布前请确认运营者的法定名称与地址，并对本文件进行法律审查。本模板不构成法律意见。各语言版本之间如有差异，以英文版本为准。

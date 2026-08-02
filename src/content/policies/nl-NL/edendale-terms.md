@@ -4,7 +4,7 @@ app: "Edendale"
 lastUpdated: "2 augustus 2026"
 lastUpdatedLabel: "Laatst bijgewerkt"
 contentLanguage: "nl-NL"
-draft: true
+draft: false
 ---
 > **Vertaling van het Engelse concept.** Bevestig vóór publicatie de juridische
 > identiteit en het adres van de exploitant en laat de paragrafen over

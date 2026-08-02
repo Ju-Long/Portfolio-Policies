@@ -4,7 +4,7 @@ app: "Edendale"
 lastUpdated: "2 de agosto de 2026"
 lastUpdatedLabel: "Última atualização"
 contentLanguage: "pt-BR"
-draft: true
+draft: false
 ---
 > **Tradução do rascunho em inglês.** Antes da publicação, confirme a identidade
 > jurídica e o endereço do operador e submeta a revisão jurídica as seções de

@@ -4,7 +4,7 @@ app: "Edendale"
 lastUpdated: "2 августа 2026 г."
 lastUpdatedLabel: "Последнее обновление"
 contentLanguage: "ru"
-draft: true
+draft: false
 ---
 
 > **Перевод английского черновика.** Перед публикацией подтвердите юридическое

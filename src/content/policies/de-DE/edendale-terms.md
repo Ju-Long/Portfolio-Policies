@@ -4,7 +4,7 @@ app: "Edendale"
 lastUpdated: "2. August 2026"
 lastUpdatedLabel: "Zuletzt aktualisiert"
 contentLanguage: "de-DE"
-draft: true
+draft: false
 ---
 > **Übersetzung des englischen Entwurfs.** Vor der Veröffentlichung sind die
 > juristische Identität und die Anschrift des Betreibers zu bestätigen sowie die

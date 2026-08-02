@@ -4,7 +4,7 @@ app: "Edendale"
 lastUpdated: "2 agosto 2026"
 lastUpdatedLabel: "Ultimo aggiornamento"
 contentLanguage: "it"
-draft: true
+draft: false
 ---
 
 > **Traduzione della bozza in inglese.** Prima della pubblicazione, confermare

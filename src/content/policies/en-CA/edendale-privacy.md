@@ -4,7 +4,7 @@ app: "Edendale"
 lastUpdated: "August 2, 2026"
 lastUpdatedLabel: "Last updated"
 contentLanguage: "en-CA"
-draft: true
+draft: false
 ---
 
 > **English draft for review.** Before publishing, confirm the legal name and

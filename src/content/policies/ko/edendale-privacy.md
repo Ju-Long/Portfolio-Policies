@@ -4,7 +4,7 @@ app: "Edendale"
 lastUpdated: "2026년 8월 2일"
 lastUpdatedLabel: "최종 업데이트"
 contentLanguage: "ko"
-draft: true
+draft: false
 ---
 
 > **영문 초안의 번역본입니다.** 공개 전에 운영자의 법적 명칭과 주소를 확정하고
