@@ -7,12 +7,6 @@ contentLanguage: "de-DE"
 draft: false
 ---
 
-> **Übersetzung des englischen Entwurfs.** Vor der Veröffentlichung sind der
-> juristische Name und die Anschrift des Betreibers zu ergänzen und dieses
-> Dokument rechtlich prüfen zu lassen. Diese Vorlage ersetzt keine
-> Rechtsberatung. Bei Abweichungen zwischen den Sprachfassungen ist die
-> englische Fassung maßgeblich.
-
 ## 1. Einleitung und Geltungsbereich
 
 Diese Datenschutzerklärung beschreibt, wie **Edendale** mit Informationen

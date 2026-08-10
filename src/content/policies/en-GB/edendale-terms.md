@@ -6,10 +6,6 @@ lastUpdatedLabel: "Last updated"
 contentLanguage: "en-GB"
 draft: false
 ---
-> **English draft for review.** Before publishing, confirm the operator's legal
-> identity and address, and obtain legal review of the liability and
-> governing-law sections.
-
 ## 1. Acceptance and scope
 
 These Terms of Use (the "**Terms**") govern your use of official Edendale

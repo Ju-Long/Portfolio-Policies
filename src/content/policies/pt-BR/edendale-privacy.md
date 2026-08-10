@@ -7,11 +7,6 @@ contentLanguage: "pt-BR"
 draft: false
 ---
 
-> **Tradução do rascunho em inglês.** Antes da publicação, confirme a razão
-> social e o endereço do operador e submeta este documento a revisão jurídica.
-> Este modelo não substitui aconselhamento jurídico. Em caso de divergência
-> entre as versões, prevalece a versão em inglês.
-
 ## 1. Introdução e escopo
 
 Esta Política de Privacidade explica como o **Edendale** trata as informações

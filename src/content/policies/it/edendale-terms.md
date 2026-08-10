@@ -6,11 +6,6 @@ lastUpdatedLabel: "Ultimo aggiornamento"
 contentLanguage: "it"
 draft: false
 ---
-> **Traduzione della bozza in inglese.** Prima della pubblicazione, confermare
-> l'identità giuridica e l'indirizzo del titolare e sottoporre a revisione legale
-> le sezioni su responsabilità e legge applicabile. In caso di discordanza tra le
-> versioni linguistiche prevale la versione inglese.
-
 ## 1. Accettazione e ambito di applicazione
 
 Le presenti condizioni d'uso (le «**Condizioni**») disciplinano l'uso delle

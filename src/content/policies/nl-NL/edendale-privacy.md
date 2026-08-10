@@ -7,11 +7,6 @@ contentLanguage: "nl-NL"
 draft: false
 ---
 
-> **Vertaling van het Engelse concept.** Bevestig vóór publicatie de
-> statutaire naam en het adres van de exploitant en laat dit document juridisch
-> toetsen. Dit model vervangt geen juridisch advies. Bij verschillen tussen de
-> taalversies prevaleert de Engelse versie.
-
 ## 1. Inleiding en reikwijdte
 
 Dit privacybeleid legt uit hoe **Edendale** omgaat met informatie wanneer je een

@@ -7,10 +7,6 @@ contentLanguage: "en-AU"
 draft: false
 ---
 
-> **English draft for review.** Before publishing, confirm the legal name and
-> address of the operator and obtain legal review of this document. This
-> template is not a substitute for legal advice.
-
 ## 1. Introduction and scope
 
 This Privacy Policy explains how **Edendale** handles information when you use

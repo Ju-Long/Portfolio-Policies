@@ -6,11 +6,6 @@ lastUpdatedLabel: "Senast uppdaterad"
 contentLanguage: "sv"
 draft: false
 ---
-> **Översättning av det engelska utkastet.** Bekräfta operatörens juridiska
-> identitet och adress före publicering och låt en jurist granska avsnitten om
-> ansvar och tillämplig lag. Vid avvikelser mellan språkversioner har den engelska
-> versionen företräde.
-
 ## 1. Godkännande och omfattning
 
 Dessa användarvillkor ("**Villkoren**") gäller din användning av officiella

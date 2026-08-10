@@ -6,11 +6,6 @@ lastUpdatedLabel: "Dernière mise à jour"
 contentLanguage: "fr-FR"
 draft: false
 ---
-> **Traduction du projet en anglais.** Avant publication, confirmer l'identité
-> juridique et l'adresse de l'exploitant et faire relire par un juriste les
-> sections relatives à la responsabilité et au droit applicable. En cas de
-> divergence entre les versions linguistiques, la version anglaise prévaut.
-
 ## 1. Acceptation et champ d'application
 
 Les présentes conditions d'utilisation (les « **Conditions** ») régissent votre

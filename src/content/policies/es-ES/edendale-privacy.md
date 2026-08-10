@@ -7,12 +7,6 @@ contentLanguage: "es-ES"
 draft: false
 ---
 
-> **Traducción del borrador en inglés.** Antes de publicar, confirma la
-> denominación legal y la dirección del responsable y somete este documento a
-> revisión jurídica. Esta plantilla no sustituye al asesoramiento legal. En caso
-> de discrepancia entre las versiones lingüísticas, prevalecerá la versión en
-> inglés.
-
 ## 1. Introducción y ámbito
 
 Esta política de privacidad explica cómo **Edendale** trata la información

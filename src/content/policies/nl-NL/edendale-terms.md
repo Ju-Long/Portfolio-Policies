@@ -6,11 +6,6 @@ lastUpdatedLabel: "Laatst bijgewerkt"
 contentLanguage: "nl-NL"
 draft: false
 ---
-> **Vertaling van het Engelse concept.** Bevestig vóór publicatie de juridische
-> identiteit en het adres van de exploitant en laat de paragrafen over
-> aansprakelijkheid en toepasselijk recht juridisch toetsen. Bij verschillen
-> tussen de taalversies prevaleert de Engelse versie.
-
 ## 1. Aanvaarding en reikwijdte
 
 Deze gebruiksvoorwaarden (de "**Voorwaarden**") gelden voor je gebruik van de

@@ -7,11 +7,6 @@ contentLanguage: "fr-FR"
 draft: false
 ---
 
-> **Traduction du projet en anglais.** Avant publication, confirmer la
-> dénomination sociale et l'adresse de l'exploitant et faire relire ce document
-> par un juriste. Ce modèle ne remplace pas un conseil juridique. En cas de
-> divergence entre les versions linguistiques, la version anglaise prévaut.
-
 ## 1. Introduction et champ d'application
 
 La présente politique de confidentialité explique comment **Edendale** traite

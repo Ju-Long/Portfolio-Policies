@@ -7,11 +7,6 @@ contentLanguage: "sv"
 draft: false
 ---
 
-> **Översättning av det engelska utkastet.** Bekräfta operatörens juridiska namn
-> och adress före publicering och låt en jurist granska dokumentet. Den här
-> mallen ersätter inte juridisk rådgivning. Vid avvikelser mellan språkversioner
-> har den engelska versionen företräde.
-
 ## 1. Inledning och omfattning
 
 Den här integritetspolicyn förklarar hur **Edendale** hanterar information när du

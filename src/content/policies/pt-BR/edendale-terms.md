@@ -6,11 +6,6 @@ lastUpdatedLabel: "Última atualização"
 contentLanguage: "pt-BR"
 draft: false
 ---
-> **Tradução do rascunho em inglês.** Antes da publicação, confirme a identidade
-> jurídica e o endereço do operador e submeta a revisão jurídica as seções de
-> responsabilidade e lei aplicável. Em caso de divergência entre as versões,
-> prevalece a versão em inglês.
-
 ## 1. Aceitação e escopo
 
 Estes Termos de Uso (os "**Termos**") regem o uso dos aplicativos oficiais do

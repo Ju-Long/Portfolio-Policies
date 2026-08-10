@@ -7,11 +7,6 @@ contentLanguage: "it"
 draft: false
 ---
 
-> **Traduzione della bozza in inglese.** Prima della pubblicazione, confermare
-> la denominazione legale e l'indirizzo del titolare e sottoporre il documento a
-> revisione legale. Questo modello non sostituisce una consulenza legale. In
-> caso di discordanza tra le versioni linguistiche prevale la versione inglese.
-
 ## 1. Introduzione e ambito di applicazione
 
 La presente informativa spiega come **Edendale** tratta le informazioni quando

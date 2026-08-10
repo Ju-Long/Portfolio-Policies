@@ -6,11 +6,6 @@ lastUpdatedLabel: "Última actualización"
 contentLanguage: "es-MX"
 draft: false
 ---
-> **Traducción del borrador en inglés.** Antes de publicar, confirma la
-> identidad jurídica y la dirección del responsable y somete a revisión legal
-> las secciones de responsabilidad y ley aplicable. En caso de discrepancia
-> entre las versiones lingüísticas, prevalecerá la versión en inglés.
-
 ## 1. Aceptación y ámbito
 
 Estos términos de uso (los «**Términos**») rigen tu uso de las aplicaciones

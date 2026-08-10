@@ -6,12 +6,6 @@ lastUpdatedLabel: "Zuletzt aktualisiert"
 contentLanguage: "de-DE"
 draft: false
 ---
-> **Übersetzung des englischen Entwurfs.** Vor der Veröffentlichung sind die
-> juristische Identität und die Anschrift des Betreibers zu bestätigen sowie die
-> Abschnitte zu Haftung und anwendbarem Recht rechtlich prüfen zu lassen. Bei
-> Abweichungen zwischen den Sprachfassungen ist die englische Fassung
-> maßgeblich.
-
 ## 1. Annahme und Geltungsbereich
 
 Diese Nutzungsbedingungen (die „**Bedingungen**“) regeln Ihre Nutzung der
