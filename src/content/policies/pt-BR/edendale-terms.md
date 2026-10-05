@@ -1,11 +1,12 @@
 ---
 title: "Termos de Uso"
 app: "Edendale"
-lastUpdated: "2 de agosto de 2026"
+lastUpdated: "5 de outubro de 2026"
 lastUpdatedLabel: "Última atualização"
 contentLanguage: "pt-BR"
 draft: false
 ---
+
 ## 1. Aceitação e escopo
 
 Estes Termos de Uso (os "**Termos**") regem o uso dos aplicativos oficiais do
@@ -28,11 +29,14 @@ legalmente excluídos permanecem aplicáveis.
 O Edendale é um reprodutor de vídeo local e um registro pessoal do que você
 assiste. Ele pode:
 
-1. reproduzir mídias compatíveis que você selecionar do armazenamento local ou
-   de um local de rede suportado;
+1. reproduzir mídias compatíveis que você selecionar do armazenamento local, de
+   um servidor que você mantém ou de uma conta de armazenamento em nuvem que
+   você vincular;
 1. classificar nomes de arquivo e criar um índice privado de biblioteca;
 1. obter metadados de filmes e séries do TMDB;
 1. buscar e baixar legendas quando você pedir;
+1. exibir botões opcionais para pular com base em marcações de tempo da
+   comunidade;
 1. salvar progresso de reprodução, favoritos, itens da lista para assistir,
    avaliações e preferências; e
 1. sincronizar determinados registros pessoais pela sua própria conta de
@@ -41,9 +45,10 @@ assiste. Ele pode:
 
 O Edendale **não** vende, fornece, hospeda nem disponibiliza catálogo de
 streaming de filmes ou episódios de televisão. A reprodução vem diretamente de
-um arquivo local ou de uma fonte de rede que você seleciona. Os metadados do
-TMDB, as legendas e os trailers do YouTube são serviços de terceiros, não mídias
-fornecidas pelo Edendale.
+um arquivo local, servidor ou conta de armazenamento em nuvem que você
+seleciona, e vincular o armazenamento não copia seus arquivos para o Edendale
+nem para a BaBaSaMa. Metadados do TMDB, legendas, marcações de tempo dos botões
+para pular e trailers do YouTube vêm de serviços de terceiros, não do Edendale.
 
 O site do Edendale é informativo. Ele descreve os aplicativos, aponta para o
 código-fonte do projeto e responde a links de aplicativo para que um link do
@@ -73,39 +78,77 @@ de terceiros permanecem sujeitos a seus próprios avisos e licenças.
 
 ## 5. Suas mídias e uso lícito
 
-Você é responsável por cada arquivo, pasta, compartilhamento de rede, legenda e
-demais itens que abrir pelo Edendale. Você declara ser titular do conteúdo ou
-ter as permissões necessárias para acessá-lo e reproduzi-lo.
+Você é responsável por cada arquivo, pasta, servidor, conta de armazenamento,
+legenda e demais itens que abrir pelo Edendale. Você declara ser titular do
+conteúdo ou ter as permissões necessárias para acessá-lo e reproduzi-lo.
 
 Você não deve usar o Edendale para:
 
 - violar direitos autorais, de privacidade, de imagem ou outros direitos;
-- acessar sem autorização arquivos, contas, dispositivos ou compartilhamentos de
-  rede;
+- acessar sem autorização arquivos, contas, dispositivos, servidores,
+  compartilhamentos de rede ou contas de armazenamento;
 - burlar gestão de direitos digitais, controles de acesso ou proteções técnicas
   em violação à legislação aplicável;
+- burlar limites de taxa, cotas ou proteções contra malware e abusos de um
+  provedor de armazenamento;
 - distribuir conteúdo ilícito, nocivo ou infrator; ou
 - usar o Serviço para qualquer finalidade ilícita ou fraudulenta.
 
 O fato de o Edendale conseguir abrir um arquivo não lhe confere direitos sobre
 ele.
 
-## 6. Arquivos locais e compartilhamentos de rede
+## 6. Arquivos locais, servidores e locais de rede
 
-Você escolhe os arquivos e locais que o Edendale pode acessar. Você é
-responsável por manter seus arquivos, permissões, compartilhamentos de rede,
-credenciais, a segurança do dispositivo e seus backups.
+Você escolhe os arquivos, servidores e contas de armazenamento que o Edendale
+pode acessar. Você é responsável por manter seus arquivos, permissões,
+servidores, contas de armazenamento, credenciais, a segurança do dispositivo e
+seus backups, e pelas configurações de segurança de qualquer servidor que você
+vincular. Vincular um servidor por uma conexão não criptografada, como NFS ou um
+endereço `http://`, e aprovar a chave de host de um servidor SFTP são decisões
+suas.
 
 A reprodução pode falhar porque um arquivo foi movido, um volume removível foi
-desconectado, um marcador ou permissão expirou, um compartilhamento de rede está
-off-line, um codec não está disponível no seu dispositivo ou um formato não é
-suportado. Selecionar um arquivo não garante que seu contêiner, codec de vídeo,
-codec de áudio, legendas ou outras faixas possam ser decodificados.
+desconectado, um marcador ou permissão expirou, um servidor ou rede está
+off-line ou lento demais, a sessão de uma conta de armazenamento foi finalizada
+ou seu acesso foi revogado, um provedor limitou ou bloqueou uma solicitação, um
+codec não está disponível no seu dispositivo ou um formato não é suportado.
+Selecionar um arquivo não garante que seu contêiner, codec de vídeo, codec de
+áudio, legendas ou outras faixas possam ser decodificados.
 
-O Edendale não é um serviço de backup. Você deve manter cópias independentes de
-arquivos e registros pessoais importantes.
+O Edendale não é um serviço de backup ou de sincronização de arquivos. Ele não
+copia, envia nem faz backup dos seus arquivos. Você deve manter cópias
+independentes de arquivos e registros pessoais importantes.
 
-## 7. Avaliações pessoais e registros de reprodução
+## 7. Contas de armazenamento em nuvem
+
+Onde disponível na sua plataforma, o Edendale pode se conectar ao Google Drive,
+ao Microsoft OneDrive e ao Dropbox. Esses serviços são fornecidos pelo Google,
+pela Microsoft e pelo Dropbox, não pela BaBaSaMa, e o Edendale não é afiliado a
+eles, nem endossado ou patrocinado por eles.
+
+Quando você vincula uma conta, você faz login na própria página do provedor e
+autoriza o Edendale a ler as informações da conta, as listagens de pastas e os
+arquivos descritos na [Política de Privacidade](../privacy/). O Edendale
+solicita acesso somente leitura e não cria, altera, move, compartilha nem
+exclui nada no seu armazenamento. Você pode revogar essa autorização a qualquer
+momento finalizando a sessão em **Ajustes → Contas** ou pelas configurações de
+conta do provedor.
+
+O uso de uma conta de armazenamento permanece sujeito aos termos e políticas
+desse provedor, incluindo os
+[Termos de Serviço do Google](https://policies.google.com/terms), o
+[Contrato de Serviços Microsoft](https://www.microsoft.com/servicesagreement) e
+os [Termos de Serviço do Dropbox](https://www.dropbox.com/terms), e, no caso de
+uma conta corporativa ou educacional, às políticas da sua organização. Você é
+responsável por cumpri-los.
+
+Um provedor pode alterar, limitar, suspender ou encerrar o acesso do Edendale ao
+seu serviço, ou exigir sua aprovação antes que o Edendale possa ser usado com
+ele. Por isso, podemos adicionar, alterar ou remover uma integração de
+armazenamento a qualquer momento. Não somos responsáveis pela disponibilidade,
+decisões, limites ou dados de um provedor.
+
+## 8. Avaliações pessoais e registros de reprodução
 
 Avaliações e registros de reprodução são recursos de organização pessoal, para
 seu próprio uso. Não constituem serviço público de resenhas e não são publicados
@@ -115,7 +158,7 @@ Nas plataformas compatíveis, conectar uma conta do TMDB pode fazer com que
 favoritos, itens da lista para assistir e avaliações sejam sincronizados com o
 TMDB. Cabe a você revisar e gerenciar as informações armazenadas nessa conta.
 
-## 8. Metadados do TMDB e recursos de conta
+## 9. Metadados do TMDB e recursos de conta
 
 O Edendale usa a API do TMDB para metadados, imagens, buscas, avaliações,
 elenco, recomendações e referências de trailers. Este produto usa a API do TMDB,
@@ -132,11 +175,13 @@ conta que você solicitar. Você pode desconectar a conta pelo Edendale e
 gerenciar ou excluir informações diretamente no TMDB. Não somos responsáveis
 pela disponibilidade, decisões ou dados da conta do TMDB.
 
-## 9. Busca de legendas
+## 10. Busca de legendas
 
 O Edendale pode buscar legendas pelo Wyzie Subs, um serviço de terceiros. O
 Edendale só o contata quando você inicia uma busca. Os arquivos de legenda vêm
-desse serviço e de suas fontes, não da BaBaSaMa.
+desse serviço e de suas fontes, não da BaBaSaMa. O Edendale mantém uma legenda
+baixada no seu dispositivo para reutilização e pode excluí-la automaticamente
+após um período sem uso, conforme descrito na Política de Privacidade.
 
 Não controlamos a disponibilidade, a precisão, a sincronia, a integridade, a
 qualidade linguística nem a situação de direitos de um arquivo de legenda de
@@ -145,7 +190,20 @@ os termos do serviço de legendas e a lei aplicável a você. O serviço pode ex
 uma chave de API que você mesmo obtém e insere; você é responsável por mantê-la
 em sigilo e pelo uso feito com ela.
 
-## 10. Trailers do YouTube
+## 11. Botões para pular
+
+O Edendale pode exibir botões opcionais **Pular Abertura**, **Pular resumo** e
+**Pular créditos** usando marcações de tempo enviadas pela comunidade pelo
+TheIntroDB, um serviço de terceiros. Os botões para pular vêm desativados por
+padrão, e o Edendale só pula quando você pressiona um botão.
+
+Marcações de tempo podem estar ausentes, imprecisas ou destinadas a uma versão
+diferente do título, de modo que um salto pode cair no ponto errado ou
+ultrapassar um conteúdo que você queria ver. Não controlamos a disponibilidade,
+os dados ou as regras do TheIntroDB. Você o usa sujeito aos seus
+[Termos](https://theintrodb.org/docs/terms).
+
+## 12. Trailers do YouTube
 
 Trailers são conteúdo opcional de terceiros. O Edendale só abre ou incorpora o
 YouTube depois que você escolhe uma ação de trailer. O YouTube pode exibir
@@ -156,7 +214,7 @@ Não controlamos a disponibilidade, a precisão, a adequação etária, a
 publicidade, os direitos nem o conteúdo de um trailer. Você usa o YouTube a seu
 critério e é responsável por cumprir os termos dele.
 
-## 11. Uso aceitável do site
+## 13. Uso aceitável do site
 
 O site é um conjunto de páginas estáticas entregues por um hospedeiro terceiro.
 Ao usá-lo, você não deve:
@@ -165,13 +223,13 @@ Ao usá-lo, você não deve:
   tentar acessá-los sem autorização;
 - executar requisições automatizadas que imponham carga desarrazoada;
 - enviar código malicioso ou explorar intencionalmente uma vulnerabilidade; ou
-- alegar falsamente vínculo com Edendale, BaBaSaMa, TMDB, Apple, Google ou
-  Microsoft.
+- alegar falsamente vínculo com Edendale, BaBaSaMa, TMDB, Apple, Google,
+  Microsoft, Dropbox ou outro serviço com o qual o Edendale funcione.
 
 Nós e nosso hospedeiro podemos bloquear tráfego abusivo ou restringir o acesso
 para proteger usuários e infraestrutura.
 
-## 12. Propriedade intelectual e conteúdo de terceiros
+## 14. Propriedade intelectual e conteúdo de terceiros
 
 O nome, o ícone, a identidade visual do Edendale e a apresentação oficial do
 site pertencem à BaBaSaMa ou nos são licenciados. Nenhuma licença de marca é
@@ -179,23 +237,31 @@ concedida, exceto na medida necessária para se referir com veracidade ao
 Serviço.
 
 Filmes, programas de televisão, legendas, pôsteres, imagens de fundo, fotos de
-elenco, metadados, trailers, marcas e demais materiais de terceiros permanecem
-de propriedade de seus respectivos titulares. O Edendale não reivindica
-propriedade sobre suas mídias nem sobre conteúdos de catálogos de terceiros.
+elenco, metadados, trailers, marcações de tempo dos botões para pular, marcas e
+demais materiais de terceiros permanecem de propriedade de seus respectivos
+titulares. O Edendale não reivindica propriedade sobre suas mídias, seu
+armazenamento nem sobre conteúdos de catálogos de terceiros.
+
+Google Drive é uma marca comercial da Google LLC. Microsoft e OneDrive são
+marcas comerciais do grupo de empresas da Microsoft. Dropbox é uma marca
+comercial da Dropbox, Inc. Outros nomes de produtos e empresas são marcas
+comerciais de seus respectivos titulares e são usados apenas para identificar os
+serviços com os quais o Edendale funciona.
 
 Componentes de terceiros e de código aberto estão sujeitos a seus próprios
 avisos e licenças.
 
-## 13. Privacidade e armazenamento de plataforma
+## 15. Privacidade e armazenamento de plataforma
 
 A [Política de Privacidade](../privacy/) explica o armazenamento local do
-Edendale, o backup e a sincronização de plataforma, as conexões opcionais de
-conta e as requisições a terceiros. Ao ativar iCloud, backup do Android,
-OneDrive, sincronização com o TMDB, um compartilhamento de rede, a busca de
-legendas ou os trailers do YouTube, você também usa um serviço controlado por
-aquele fornecedor e sujeito aos termos dele.
+Edendale, o backup e a sincronização de plataforma, os servidores e contas de
+armazenamento vinculados, as conexões opcionais de conta e as requisições a
+terceiros. Ao ativar iCloud, backup do Android, OneDrive, sincronização com o
+TMDB, um servidor ou conta de armazenamento em nuvem, a busca de legendas, os
+botões para pular ou os trailers do YouTube, você também usa um serviço
+controlado por aquele fornecedor e sujeito aos termos dele.
 
-## 14. Atualizações, disponibilidade e mudanças
+## 16. Atualizações, disponibilidade e mudanças
 
 O Serviço está em desenvolvimento ativo. Podemos acrescentar, alterar, suspender
 ou remover recursos, plataformas, integrações ou o site. Não garantimos que o
@@ -206,7 +272,7 @@ Atualizações podem ser necessárias por segurança ou compatibilidade. Cabe a 
 instalar versões suportadas e manter dispositivo, rede e sistema operacional
 compatíveis.
 
-## 15. Isenções de garantia
+## 17. Isenções de garantia
 
 Na máxima extensão permitida em lei, o Serviço é fornecido **"no estado em que
 se encontra"** e **"conforme disponível"**, com todas as falhas e sem garantias
@@ -218,10 +284,13 @@ fruição pacífica.
 Não garantimos que:
 
 - um arquivo ou codec será reproduzido;
+- um servidor ou provedor de armazenamento vinculado estará disponível, será
+  rápido o suficiente para streaming ou continuará permitindo o acesso do
+  Edendale;
 - a classificação de nomes de arquivo ou a correspondência com o TMDB estará
   correta;
-- metadados, avaliações, elenco, legendas ou trailers serão exatos ou estarão
-  disponíveis;
+- metadados, avaliações, elenco, legendas, marcações de tempo dos botões para
+  pular ou trailers serão exatos ou estarão disponíveis;
 - progresso de reprodução, avaliações ou sincronização jamais serão perdidos,
   duplicados, atrasados ou inconsistentes; ou
 - o Serviço atenderá aos seus requisitos técnicos ou de compatibilidade
@@ -230,13 +299,14 @@ Não garantimos que:
 Nada nestes Termos exclui garantia ou direito do consumidor que a legislação
 aplicável não nos permita excluir.
 
-## 16. Limitação de responsabilidade
+## 18. Limitação de responsabilidade
 
 Na máxima extensão permitida em lei, a BaBaSaMa e seus colaboradores não serão
 responsáveis por danos indiretos, incidentais, especiais, exemplares, punitivos
 ou consequenciais, nem por perda de dados, mídias, progresso, avaliações,
 lucros, receitas, reputação comercial ou interrupção de atividades, decorrentes
-do Serviço ou a ele relacionados.
+do Serviço ou de um serviço de terceiros que você use por meio dele, ou a eles
+relacionados.
 
 Exceto quando o EULA padrão da Apple reger a responsabilidade pelo binário da
 Apple, e quando a responsabilidade não puder ser excluída, mas puder ser
@@ -252,7 +322,7 @@ corporal causada por negligência, nem qualquer responsabilidade que não possa
 ser legalmente limitada. Algumas jurisdições não admitem determinadas exclusões,
 de modo que partes desta seção podem não se aplicar a você.
 
-## 17. Reconhecimentos específicos da Apple
+## 19. Reconhecimentos específicos da Apple
 
 Para um aplicativo Edendale obtido pela Apple, o EULA padrão da Apple rege
 exclusivamente a licença do binário, incluindo suas regras sobre uso permitido,
@@ -264,11 +334,13 @@ prevalece o contrato da Apple.
 A BaBaSaMa permanece a fornecedora do aplicativo e o contato de suporte do
 Edendale: **long@babasama.com**.
 
-## 18. Suspensão e rescisão
+## 20. Suspensão e rescisão
 
-Você pode parar de usar o Serviço a qualquer momento. Podemos restringir o
-acesso ao site se você descumprir substancialmente estes Termos, criar risco
-legal ou de segurança, ou abusar do site ou de seu hospedeiro.
+Você pode parar de usar o Serviço a qualquer momento. Para encerrar o acesso do
+Edendale a uma conta de armazenamento vinculada, finalize a sessão no Edendale
+ou revogue o acesso pelo provedor. Podemos restringir o acesso ao site se você
+descumprir substancialmente estes Termos, criar risco legal ou de segurança, ou
+abusar do site ou de seu hospedeiro.
 
 Com a rescisão, encerra-se qualquer licença não relativa à Apple concedida por
 estes Termos. A licença do binário da Apple permanece regida pelo EULA padrão da
@@ -277,7 +349,7 @@ titularidade, isenções de garantia, limites de responsabilidade, lei aplicáve
 termos de terceiros — continuarão a valer. A licença de código-fonte MPL 2.0
 permanece regida por seus próprios termos.
 
-## 19. Lei aplicável e disputas
+## 21. Lei aplicável e disputas
 
 Exceto quanto à licença do binário da Apple, regida pelo EULA padrão da Apple,
 estes Termos são regidos pelas leis de **Singapura**, sem consideração às
@@ -289,7 +361,7 @@ Antes de iniciar um procedimento formal, você e a BaBaSaMa concordam em fazer u
 esforço razoável e de boa-fé para resolver a questão por e-mail, salvo se a
 urgência ou a lei aplicável tornarem isso inviável.
 
-## 20. Alterações destes Termos
+## 22. Alterações destes Termos
 
 Podemos atualizar estes Termos quando o Serviço, os fornecedores ou os
 requisitos legais mudarem. Alteraremos a data de **Última atualização** e
@@ -297,7 +369,7 @@ daremos aviso adicional quando apropriado. Se você não concordar com os Termos
 revisados, deve parar de usar o Serviço. As alterações não retirarão direitos
 irrenunciáveis.
 
-## 21. Contato
+## 23. Contato
 
 Dúvidas sobre estes Termos podem ser enviadas para:
 

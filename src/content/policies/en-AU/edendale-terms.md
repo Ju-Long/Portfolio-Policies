@@ -1,11 +1,12 @@
 ---
 title: "Terms of Use"
 app: "Edendale"
-lastUpdated: "2 August 2026"
+lastUpdated: "5 October 2026"
 lastUpdatedLabel: "Last updated"
 contentLanguage: "en-AU"
 draft: false
 ---
+
 ## 1. Acceptance and scope
 
 These Terms of Use (the "**Terms**") govern your use of official Edendale
@@ -27,20 +28,23 @@ cannot lawfully be excluded continue to apply.
 
 Edendale is a local-first video player and personal watch tracker. It can:
 
-1. play compatible media that you select from local storage or a supported
-   network location;
+1. play compatible media that you select from local storage, a server you run,
+   or a cloud storage account you link;
 1. classify filenames and create a private library index;
 1. retrieve movie and television metadata from TMDB;
 1. search for and download subtitles when you ask it to;
+1. show optional skip prompts based on community timestamps;
 1. save watch progress, favourites, watchlist choices, ratings, and
    preferences; and
 1. synchronise certain personal records through your own platform account or an
    optional TMDB account where the feature is available.
 
 Edendale does **not** sell, supply, host, or provide a streaming catalogue of
-movies or television episodes. Playback comes directly from a local file or
-network source that you select. TMDB metadata, subtitles, and YouTube trailers
-are third-party services, not media supplied by Edendale.
+movies or television episodes. Playback comes directly from a local file,
+server, or cloud storage account that you select, and linking storage does not
+copy your files to Edendale or to BaBaSaMa. TMDB metadata, subtitles,
+skip-prompt timestamps, and YouTube trailers come from third-party services,
+not from Edendale.
 
 The Edendale website is informational. It describes the applications, links to
 the project's source code, and answers app links so that a shared Edendale link
@@ -70,37 +74,72 @@ components remain subject to their own notices and licences.
 
 ## 5. Your media and lawful use
 
-You are responsible for every file, folder, network share, subtitle, and other
-item you open through Edendale. You represent that you own the content or have
-the permissions needed to access and play it.
+You are responsible for every file, folder, server, storage account, subtitle,
+and other item you open through Edendale. You represent that you own the
+content or have the permissions needed to access and play it.
 
 You must not use Edendale to:
 
 - infringe copyright, privacy, publicity, or other rights;
-- access files, accounts, devices, or network shares without authorisation;
+- access files, accounts, devices, servers, network shares, or storage accounts
+  without authorisation;
 - defeat digital rights management, access controls, or technical protections
   in violation of applicable law;
+- circumvent a storage provider's rate limits, quotas, or malware and abuse
+  protections;
 - distribute unlawful, harmful, or infringing content; or
 - use the Service for any unlawful or fraudulent purpose.
 
 Edendale's ability to open a file does not grant you rights to that file.
 
-## 6. Local files and network shares
+## 6. Local files, servers, and network locations
 
-You choose the files and locations Edendale may access. You are responsible for
-maintaining your files, permissions, network shares, credentials, device
-security, and backups.
+You choose the files, servers, and storage accounts Edendale may access. You
+are responsible for maintaining your files, permissions, servers, storage
+accounts, credentials, device security, and backups, and for the security
+settings of any server you link. Linking a server over an unencrypted
+connection, such as NFS or an `http://` address, and approving an SFTP
+server's host key are your decisions.
 
 Playback can fail because a file moved, a removable volume was disconnected, a
-bookmark or permission expired, a network share is offline, a codec is
-unavailable on your device, or a format is unsupported. Selecting a file does
-not guarantee that its container, video codec, audio codec, subtitles, or other
-streams can be decoded.
+bookmark or permission expired, a server or network is offline or too slow, a
+storage account was signed out or its access was revoked, a provider limited or
+blocked a request, a codec is unavailable on your device, or a format is
+unsupported. Selecting a file does not guarantee that its container, video
+codec, audio codec, subtitles, or other streams can be decoded.
 
-Edendale is not a backup service. You should maintain independent copies of
+Edendale is not a backup or file-synchronisation service. It does not copy,
+upload, or back up your files. You should maintain independent copies of
 important files and personal records.
 
-## 7. Personal ratings and watch records
+## 7. Cloud storage accounts
+
+Where available on your platform, Edendale can connect to Google Drive,
+Microsoft OneDrive, and Dropbox. These services are provided by Google,
+Microsoft, and Dropbox, not by BaBaSaMa, and Edendale is not affiliated with,
+endorsed by, or sponsored by them.
+
+When you link an account, you sign in on the provider's own page and authorise
+Edendale to read the account information, folder listings, and files described
+in the [Privacy Policy](../privacy/). Edendale requests read-only access and
+does not create, change, move, share, or delete anything in your storage. You
+may withdraw that authorisation at any time by signing out in
+**Settings → Accounts** or through the provider's account settings.
+
+Your use of a storage account remains subject to that provider's terms and
+policies, including the
+[Google Terms of Service](https://policies.google.com/terms), the
+[Microsoft Services Agreement](https://www.microsoft.com/servicesagreement),
+and the [Dropbox Terms of Service](https://www.dropbox.com/terms), and, for a
+work or school account, your organisation's policies. You are responsible for
+complying with them.
+
+A provider may change, limit, suspend, or end Edendale's access to its service,
+or require its approval before Edendale can be used with it. We may therefore
+add, change, or remove a storage integration at any time. We are not
+responsible for a provider's availability, decisions, limits, or data.
+
+## 8. Personal ratings and watch records
 
 Ratings and watch records are personal organisational features for your own
 use. They are not a public review service and are not published by Edendale.
@@ -109,7 +148,7 @@ On supported platforms, connecting a TMDB account may cause favourites,
 watchlist entries, and ratings to synchronise with TMDB. You are responsible
 for reviewing and managing information stored in that account.
 
-## 8. TMDB metadata and account features
+## 9. TMDB metadata and account features
 
 Edendale uses the TMDB API for metadata, images, search, ratings, cast,
 recommendations, and trailer references. This product uses the TMDB API but is
@@ -126,11 +165,13 @@ actions you request. You may disconnect the account through Edendale and manage
 or delete information directly through TMDB. We are not responsible for TMDB
 account availability, decisions, or data.
 
-## 9. Subtitle search
+## 10. Subtitle search
 
 Edendale can search for subtitles through Wyzie Subs, a third-party service.
 Edendale contacts it only when you start a search. Subtitle files come from
-that service and its sources, not from BaBaSaMa.
+that service and its sources, not from BaBaSaMa. Edendale keeps a downloaded
+subtitle on your device for reuse and may delete it automatically after a
+period without use, as the Privacy Policy describes.
 
 We do not control the availability, accuracy, timing, completeness, language
 quality, or rights status of a third-party subtitle file, and we do not review
@@ -139,7 +180,19 @@ subtitle service's terms and with the law that applies to you. The service may
 require an API key that you obtain and enter yourself; you are responsible for
 keeping it confidential and for use made under it.
 
-## 10. YouTube trailers
+## 11. Skip prompts
+
+Edendale can show optional **Skip Intro**, **Skip Recap**, and **Skip Credits**
+buttons using community-submitted timestamps from TheIntroDB, a third-party
+service. Skip prompts are off by default, and Edendale skips only when you press
+a button.
+
+Timestamps may be missing, inaccurate, or meant for a different release of a
+title, so a skip may land in the wrong place or pass over content you wanted to
+see. We do not control TheIntroDB's availability, data, or rules. You use it
+subject to its [Terms](https://theintrodb.org/docs/terms).
+
+## 12. YouTube trailers
 
 Trailers are optional third-party content. Edendale opens or embeds YouTube
 only after you choose a trailer action. YouTube may show advertising and may
@@ -149,7 +202,7 @@ We do not control a trailer's availability, accuracy, age suitability,
 advertising, rights, or content. You use YouTube at your own discretion and are
 responsible for complying with its terms.
 
-## 11. Website acceptable use
+## 13. Website acceptable use
 
 The website is a set of static pages served by a third-party host. When using
 it, you must not:
@@ -158,35 +211,42 @@ it, you must not:
   hosting infrastructure;
 - run automated requests that place unreasonable load on it;
 - submit malicious code or intentionally exploit a vulnerability; or
-- misrepresent an affiliation with Edendale, BaBaSaMa, TMDB, Apple, Google, or
-  Microsoft.
+- misrepresent an affiliation with Edendale, BaBaSaMa, TMDB, Apple, Google,
+  Microsoft, Dropbox, or another service Edendale works with.
 
 We and our host may block abusive traffic or restrict access to protect users
 and infrastructure.
 
-## 12. Intellectual property and third-party content
+## 14. Intellectual property and third-party content
 
 Edendale's name, icon, visual identity, and official website presentation are
 owned by BaBaSaMa or licensed to us. No trademark licence is granted except as
 needed to refer truthfully to the Service.
 
-Movies, television programs, subtitles, posters, backdrops, cast images,
-metadata, trailers, trademarks, and other third-party material remain the
-property of their respective owners. Edendale does not claim ownership of your
-media or third-party catalogue content.
+Movies, television programmes, subtitles, posters, backdrops, cast images,
+metadata, trailers, skip timestamps, trademarks, and other third-party material
+remain the property of their respective owners. Edendale does not claim
+ownership of your media, your storage, or third-party catalogue content.
+
+Google Drive is a trademark of Google LLC. Microsoft and OneDrive are
+trademarks of the Microsoft group of companies. Dropbox is a trademark of
+Dropbox, Inc. Other product and company names are trademarks of their
+respective owners and are used only to identify the services Edendale works
+with.
 
 Third-party and open-source components are subject to their own notices and
 licences.
 
-## 13. Privacy and platform storage
+## 15. Privacy and platform storage
 
 The [Privacy Policy](../privacy/) explains Edendale's local storage, platform
-backup and sync, optional account connections, and third-party requests. By
-enabling iCloud, Android backup, OneDrive, TMDB account sync, a network share,
-subtitle search, or YouTube trailers, you also use a service controlled by that
-provider and subject to its terms.
+backup and sync, linked servers and storage accounts, optional account
+connections, and third-party requests. By enabling iCloud, Android backup,
+OneDrive, TMDB account sync, a server or cloud storage account, subtitle
+search, skip prompts, or YouTube trailers, you also use a service controlled by
+that provider and subject to its terms.
 
-## 14. Updates, availability, and changes
+## 16. Updates, availability, and changes
 
 The Service is under active development. We may add, change, suspend, or remove
 features, platforms, integrations, or the website. We do not guarantee that the
@@ -197,7 +257,7 @@ Updates may be required for security or compatibility. You are responsible for
 installing supported versions and maintaining a compatible device, network, and
 operating system.
 
-## 15. Disclaimers
+## 17. Disclaimers
 
 To the fullest extent permitted by law, the Service is provided **"as is"** and
 **"as available"**, with all faults and without warranties of any kind, express,
@@ -208,9 +268,11 @@ non-infringement, accuracy, availability, and quiet enjoyment.
 We do not warrant that:
 
 - a file or codec will play;
+- a linked server or storage provider will be available, fast enough to stream,
+  or continue to allow Edendale's access;
 - filename classification or TMDB matching will be correct;
-- metadata, ratings, cast, subtitles, or trailers will be accurate or
-  available;
+- metadata, ratings, cast, subtitles, skip timestamps, or trailers will be
+  accurate or available;
 - watch progress, ratings, or synchronisation will never be lost, duplicated,
   delayed, or inconsistent; or
 - the Service will meet your particular technical or compatibility
@@ -219,13 +281,13 @@ We do not warrant that:
 Nothing in these Terms excludes a warranty or consumer right that applicable
 law does not allow us to exclude.
 
-## 16. Limitation of liability
+## 18. Limitation of liability
 
 To the fullest extent permitted by law, BaBaSaMa and its contributors will not
 be liable for indirect, incidental, special, exemplary, punitive, or
 consequential loss, or for loss of data, media, progress, ratings, profits,
 revenue, goodwill, or business interruption, arising from or connected with the
-Service.
+Service or a third-party service you use through it.
 
 Except where Apple's Standard EULA controls liability for the Apple binary,
 where liability cannot be excluded but may be limited, our total aggregate
@@ -240,7 +302,7 @@ personal injury caused by negligence, or any liability that cannot lawfully be
 limited. Some jurisdictions do not permit certain exclusions, so parts of this
 section may not apply to you.
 
-## 17. Apple-specific acknowledgements
+## 19. Apple-specific acknowledgements
 
 For an Edendale application obtained through Apple, Apple's Standard EULA
 exclusively governs the binary licence, including its rules about permitted
@@ -252,11 +314,12 @@ agreement controls.
 BaBaSaMa remains the application provider and support contact for Edendale:
 **long@babasama.com**.
 
-## 18. Suspension and termination
+## 20. Suspension and termination
 
-You may stop using the Service at any time. We may restrict access to the
-website if you materially breach these Terms, create security or legal risk, or
-abuse the site or its host.
+You may stop using the Service at any time. To end Edendale's access to a
+linked storage account, sign out in Edendale or revoke access through the
+provider. We may restrict access to the website if you materially breach these
+Terms, create security or legal risk, or abuse the site or its host.
 
 On termination, any non-Apple licence granted by these Terms ends. The Apple
 binary licence remains governed by Apple's Standard EULA. Provisions that by
@@ -264,7 +327,7 @@ their nature should survive—including ownership, disclaimers, liability
 limits, governing law, and third-party terms—will continue to apply. The MPL
 2.0 source-code licence remains governed by its own terms.
 
-## 19. Governing law and disputes
+## 21. Governing law and disputes
 
 Except for the Apple binary licence governed by Apple's Standard EULA, these
 Terms are governed by the laws of **Singapore**, without regard to
@@ -276,14 +339,14 @@ Before starting formal proceedings, you and BaBaSaMa agree to make a reasonable
 good-faith effort to resolve the issue by email, unless urgent relief or
 applicable law makes that impractical.
 
-## 20. Changes to these Terms
+## 22. Changes to these Terms
 
 We may update these Terms when the Service, providers, or legal requirements
 change. We will revise the **Last updated** date and provide additional notice
 where appropriate. If you do not agree to revised Terms, you must stop using the
 Service. Changes will not remove rights that cannot lawfully be waived.
 
-## 21. Contact
+## 23. Contact
 
 Questions about these Terms may be sent to:
 

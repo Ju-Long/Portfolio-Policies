@@ -1,11 +1,12 @@
 ---
 title: "Gebruiksvoorwaarden"
 app: "Edendale"
-lastUpdated: "2 augustus 2026"
+lastUpdated: "5 oktober 2026"
 lastUpdatedLabel: "Laatst bijgewerkt"
 contentLanguage: "nl-NL"
 draft: false
 ---
+
 ## 1. Aanvaarding en reikwijdte
 
 Deze gebruiksvoorwaarden (de "**Voorwaarden**") gelden voor je gebruik van de
@@ -30,20 +31,23 @@ blijven van toepassing.
 Edendale is een lokale videospeler en een persoonlijke kijkregistratie. De app
 kan:
 
-1. compatibele media afspelen die je kiest uit lokale opslag of een ondersteunde
-   netwerklocatie;
+1. compatibele media afspelen die je kiest uit lokale opslag, een server die je
+   zelf beheert of een cloudopslagaccount dat je koppelt;
 1. bestandsnamen herkennen en een privébibliotheekindex aanleggen;
 1. film- en televisiemetagegevens ophalen bij TMDB;
 1. ondertitels zoeken en downloaden wanneer je daarom vraagt;
+1. optionele overslaanknoppen tonen op basis van tijdstempels van de community;
 1. kijkvoortgang, favorieten, kijklijstkeuzes, beoordelingen en voorkeuren
    bewaren; en
 1. bepaalde persoonlijke gegevens synchroniseren via je eigen platformaccount of
    een optioneel TMDB-account, waar die functie beschikbaar is.
 
 Edendale verkoopt, levert, host of biedt **geen** streamingcatalogus met films of
-televisieafleveringen. Het afspelen komt rechtstreeks uit een lokaal bestand of
-een netwerkbron die je zelf kiest. TMDB-metagegevens, ondertitels en
-YouTube-trailers zijn diensten van derden, geen media die Edendale levert.
+televisieafleveringen. Het afspelen komt rechtstreeks uit een lokaal bestand,
+een server of een cloudopslagaccount dat je zelf kiest, en het koppelen van
+opslag kopieert je bestanden niet naar Edendale of naar BaBaSaMa.
+TMDB-metagegevens, ondertitels, tijdstempels voor overslaanknoppen en
+YouTube-trailers komen van diensten van derden, niet van Edendale.
 
 De Edendale-website is informatief. Hij beschrijft de apps, verwijst naar de
 broncode van het project en beantwoordt app-links, zodat een gedeelde
@@ -75,40 +79,77 @@ van derden blijven onderworpen aan hun eigen vermeldingen en licenties.
 
 ## 5. Je media en rechtmatig gebruik
 
-Je bent verantwoordelijk voor elk bestand, elke map, netwerkshare, ondertitel en
-elk ander item dat je via Edendale opent. Je verklaart dat je eigenaar bent van
-de inhoud of over de nodige toestemmingen beschikt om die te openen en af te
-spelen.
+Je bent verantwoordelijk voor elk bestand, elke map, elke server, elk
+opslagaccount, elke ondertitel en elk ander item dat je via Edendale opent. Je
+verklaart dat je eigenaar bent van de inhoud of over de nodige toestemmingen
+beschikt om die te openen en af te spelen.
 
 Je mag Edendale niet gebruiken om:
 
 - auteursrechten, privacy-, portret- of andere rechten te schenden;
-- zonder toestemming toegang te krijgen tot bestanden, accounts, apparaten of
-  netwerkshares;
+- zonder toestemming toegang te krijgen tot bestanden, accounts, apparaten,
+  servers, netwerkshares of opslagaccounts;
 - digitaal rechtenbeheer, toegangscontroles of technische beschermingsmaatregelen
   te omzeilen in strijd met het toepasselijke recht;
+- aanvraaglimieten, quota of beschermingsmaatregelen tegen malware en misbruik
+  van een opslagaanbieder te omzeilen;
 - onrechtmatige, schadelijke of inbreukmakende inhoud te verspreiden; of
 - de Dienst voor onrechtmatige of frauduleuze doeleinden in te zetten.
 
 Dat Edendale een bestand kan openen, geeft je geen rechten op dat bestand.
 
-## 6. Lokale bestanden en netwerkshares
+## 6. Lokale bestanden, servers en netwerklocaties
 
-Jij kiest welke bestanden en locaties Edendale mag benaderen. Je bent
-verantwoordelijk voor het onderhoud van je bestanden, machtigingen,
-netwerkshares, inloggegevens, apparaatbeveiliging en back-ups.
+Jij kiest welke bestanden, servers en opslagaccounts Edendale mag benaderen. Je
+bent verantwoordelijk voor het onderhoud van je bestanden, machtigingen,
+servers, opslagaccounts, inloggegevens, apparaatbeveiliging en back-ups, en voor
+de beveiligingsinstellingen van elke server die je koppelt. Het koppelen van een
+server via een onversleutelde verbinding, zoals NFS of een `http://`-adres, en
+het goedkeuren van de hostsleutel van een SFTP-server zijn jouw eigen
+beslissingen.
 
 Afspelen kan mislukken doordat een bestand is verplaatst, een verwisselbaar
-volume is losgekoppeld, een bladwijzer of machtiging is verlopen, een
-netwerkshare offline is, een codec op je apparaat ontbreekt of een formaat niet
-wordt ondersteund. Een bestand selecteren garandeert niet dat de container, de
-videocodec, de audiocodec, de ondertitels of andere sporen gedecodeerd kunnen
-worden.
+volume is losgekoppeld, een bladwijzer of machtiging is verlopen, een server of
+netwerk offline of te traag is, een opslagaccount is afgemeld of de toegang ertoe
+is ingetrokken, een aanbieder een verzoek heeft beperkt of geblokkeerd, een codec
+op je apparaat ontbreekt of een formaat niet wordt ondersteund. Een bestand
+selecteren garandeert niet dat de container, de videocodec, de audiocodec, de
+ondertitels of andere sporen gedecodeerd kunnen worden.
 
-Edendale is geen back-updienst. Je hoort onafhankelijke kopieën van belangrijke
-bestanden en persoonlijke gegevens te bewaren.
+Edendale is geen back-up- of bestandssynchronisatiedienst. Het kopieert,
+uploadt of back-upt je bestanden niet. Je hoort onafhankelijke kopieën van
+belangrijke bestanden en persoonlijke gegevens te bewaren.
 
-## 7. Persoonlijke beoordelingen en kijkgegevens
+## 7. Cloudopslagaccounts
+
+Waar beschikbaar op je platform kan Edendale verbinding maken met Google Drive,
+Microsoft OneDrive en Dropbox. Deze diensten worden geleverd door Google,
+Microsoft en Dropbox, niet door BaBaSaMa, en Edendale is niet aan hen gelieerd,
+door hen goedgekeurd of door hen gesponsord.
+
+Wanneer je een account koppelt, meld je je aan op de eigen pagina van de
+aanbieder en machtig je Edendale om de accountgegevens, mapoverzichten en
+bestanden te lezen die worden beschreven in het [privacybeleid](../privacy/).
+Edendale vraagt alleen-lezentoegang en maakt, wijzigt, verplaatst, deelt of
+verwijdert niets in je opslag. Je kunt die machtiging op elk moment intrekken
+door je af te melden in **Instellingen → Accounts** of via de accountinstellingen
+van de aanbieder.
+
+Je gebruik van een opslagaccount blijft onderworpen aan de voorwaarden en het
+beleid van die aanbieder, waaronder de
+[servicevoorwaarden van Google](https://policies.google.com/terms), de
+[Microsoft-dienstenovereenkomst](https://www.microsoft.com/servicesagreement) en
+de [servicevoorwaarden van Dropbox](https://www.dropbox.com/terms), en, bij een
+werk- of schoolaccount, het beleid van je organisatie. Je bent zelf
+verantwoordelijk voor de naleving daarvan.
+
+Een aanbieder kan de toegang van Edendale tot zijn dienst wijzigen, beperken,
+opschorten of beëindigen, of zijn goedkeuring vereisen voordat Edendale ermee kan
+worden gebruikt. We kunnen daarom op elk moment een opslagintegratie toevoegen,
+wijzigen of verwijderen. Wij zijn niet verantwoordelijk voor de
+beschikbaarheid, beslissingen, limieten of gegevens van een aanbieder.
+
+## 8. Persoonlijke beoordelingen en kijkgegevens
 
 Beoordelingen en kijkgegevens zijn persoonlijke ordeningsfuncties voor je eigen
 gebruik. Ze vormen geen openbare recensiedienst en worden door Edendale niet
@@ -119,7 +160,7 @@ favorieten, kijklijstitems en beoordelingen met TMDB worden gesynchroniseerd. Je
 bent zelf verantwoordelijk voor het controleren en beheren van de informatie in
 dat account.
 
-## 8. TMDB-metagegevens en accountfuncties
+## 9. TMDB-metagegevens en accountfuncties
 
 Edendale gebruikt de TMDB-API voor metagegevens, afbeeldingen, zoekopdrachten,
 beoordelingen, cast, aanbevelingen en trailerverwijzingen. Dit product gebruikt
@@ -137,11 +178,14 @@ informatie rechtstreeks via TMDB beheren of verwijderen. Wij zijn niet
 verantwoordelijk voor de beschikbaarheid, beslissingen of gegevens van het
 TMDB-account.
 
-## 9. Ondertitels zoeken
+## 10. Ondertitels zoeken
 
 Edendale kan ondertitels zoeken via Wyzie Subs, een dienst van een derde.
 Edendale neemt daar alleen contact mee op als je een zoekopdracht start.
 Ondertitelbestanden komen van die dienst en zijn bronnen, niet van BaBaSaMa.
+Edendale bewaart een gedownloade ondertitel op je apparaat voor hergebruik en kan
+deze na een periode zonder gebruik automatisch verwijderen, zoals beschreven in
+het privacybeleid.
 
 Wij hebben geen invloed op de beschikbaarheid, juistheid, timing, volledigheid,
 taalkwaliteit of rechtenstatus van een ondertitelbestand van een derde, en we
@@ -151,7 +195,20 @@ jou van toepassing is. De dienst kan een API-sleutel vereisen die je zelf
 verkrijgt en invoert; je bent verantwoordelijk voor de vertrouwelijkheid ervan en
 voor het gebruik dat ermee wordt gemaakt.
 
-## 10. YouTube-trailers
+## 11. Overslaanknoppen
+
+Edendale kan optionele knoppen **Sla intro over**, **Sla samenvatting over** en
+**Sla aftiteling over** tonen met behulp van door de community verzamelde
+tijdstempels van TheIntroDB, een dienst van een derde. Overslaanknoppen staan
+standaard uit, en Edendale slaat alleen iets over wanneer je op een knop drukt.
+
+Tijdstempels kunnen ontbreken, onnauwkeurig zijn of bedoeld zijn voor een andere
+versie van een titel, waardoor een overslag op het verkeerde punt kan belanden of
+voorbij kan gaan aan inhoud die je had willen zien. Wij hebben geen invloed op de
+beschikbaarheid, gegevens of regels van TheIntroDB. Je gebruikt de dienst onder
+haar [Voorwaarden](https://theintrodb.org/docs/terms).
+
+## 12. YouTube-trailers
 
 Trailers zijn optionele inhoud van derden. Edendale opent of sluit YouTube pas in
 nadat je een traileractie hebt gekozen. YouTube kan advertenties tonen en
@@ -161,7 +218,7 @@ Wij hebben geen invloed op de beschikbaarheid, juistheid, leeftijdsgeschiktheid,
 advertenties, rechten of inhoud van een trailer. Je gebruikt YouTube naar eigen
 inzicht en bent verantwoordelijk voor naleving van de voorwaarden daarvan.
 
-## 11. Aanvaardbaar gebruik van de website
+## 13. Aanvaardbaar gebruik van de website
 
 De site bestaat uit statische pagina's die door een externe host worden
 geleverd. Bij gebruik ervan mag je niet:
@@ -171,13 +228,13 @@ geleverd. Bij gebruik ervan mag je niet:
 - geautomatiseerde verzoeken uitvoeren die er een onredelijke belasting op
   leggen;
 - schadelijke code indienen of opzettelijk een kwetsbaarheid misbruiken; of
-- ten onrechte een band suggereren met Edendale, BaBaSaMa, TMDB, Apple, Google
-  of Microsoft.
+- ten onrechte een band suggereren met Edendale, BaBaSaMa, TMDB, Apple, Google,
+  Microsoft, Dropbox of een andere dienst waarmee Edendale samenwerkt.
 
 Wij en onze host kunnen misbruikend verkeer blokkeren of de toegang beperken om
 gebruikers en infrastructuur te beschermen.
 
-## 12. Intellectuele eigendom en inhoud van derden
+## 14. Intellectuele eigendom en inhoud van derden
 
 De naam, het pictogram, de visuele identiteit van Edendale en de officiële
 presentatie van de website zijn eigendom van BaBaSaMa of aan ons in licentie
@@ -185,23 +242,31 @@ gegeven. Er wordt geen merklicentie verleend, behalve voor zover nodig om
 naar waarheid naar de Dienst te verwijzen.
 
 Films, televisieprogramma's, ondertitels, posters, achtergronden, castfoto's,
-metagegevens, trailers, merken en ander materiaal van derden blijven eigendom
-van hun respectieve rechthebbenden. Edendale claimt geen eigendom van jouw media
-of van cataloguscontent van derden.
+metagegevens, trailers, tijdstempels voor overslaanknoppen, merken en ander
+materiaal van derden blijven eigendom van hun respectieve rechthebbenden.
+Edendale claimt geen eigendom van jouw media, jouw opslag of
+cataloguscontent van derden.
+
+Google Drive is een handelsmerk van Google LLC. Microsoft en OneDrive zijn
+handelsmerken van de Microsoft-bedrijvengroep. Dropbox is een handelsmerk van
+Dropbox, Inc. Andere product- en bedrijfsnamen zijn handelsmerken van hun
+respectieve eigenaren en worden alleen gebruikt om de diensten aan te duiden
+waarmee Edendale samenwerkt.
 
 Componenten van derden en opensourcecomponenten vallen onder hun eigen
 vermeldingen en licenties.
 
-## 13. Privacy en platformopslag
+## 15. Privacy en platformopslag
 
 Het [privacybeleid](../privacy/) legt de lokale opslag van Edendale uit, de
-back-up en synchronisatie via het platform, optionele accountkoppelingen en
-verzoeken aan derden. Door iCloud, Android-back-up, OneDrive, TMDB-synchronisatie,
-een netwerkshare, ondertitels zoeken of YouTube-trailers in te schakelen, gebruik
-je ook een dienst die door die aanbieder wordt beheerd en aan diens voorwaarden
-is onderworpen.
+back-up en synchronisatie via het platform, gekoppelde servers en
+opslagaccounts, optionele accountkoppelingen en verzoeken aan derden. Door
+iCloud, Android-back-up, OneDrive, TMDB-synchronisatie, een server of
+cloudopslagaccount, ondertitels zoeken, overslaanknoppen of YouTube-trailers in te
+schakelen, gebruik je ook een dienst die door die aanbieder wordt beheerd en aan
+diens voorwaarden is onderworpen.
 
-## 14. Updates, beschikbaarheid en wijzigingen
+## 16. Updates, beschikbaarheid en wijzigingen
 
 De Dienst is in actieve ontwikkeling. We kunnen functies, platforms, integraties
 of de website toevoegen, wijzigen, opschorten of verwijderen. We garanderen niet
@@ -212,7 +277,7 @@ Updates kunnen nodig zijn om veiligheids- of compatibiliteitsredenen. Je bent
 zelf verantwoordelijk voor het installeren van ondersteunde versies en voor een
 compatibel apparaat, netwerk en besturingssysteem.
 
-## 15. Uitsluiting van garanties
+## 17. Uitsluiting van garanties
 
 Voor zover wettelijk toegestaan wordt de Dienst geleverd **"as is"** en **"zoals
 beschikbaar"**, met alle gebreken en zonder enige garantie, uitdrukkelijk,
@@ -223,9 +288,11 @@ niet-inbreuk, juistheid, beschikbaarheid en ongestoord genot.
 We garanderen niet dat:
 
 - een bestand of codec afspeelt;
+- een gekoppelde server of opslagaanbieder beschikbaar is, snel genoeg is om te
+  streamen of de toegang voor Edendale blijft toestaan;
 - de herkenning van bestandsnamen of de TMDB-koppeling juist is;
-- metagegevens, beoordelingen, cast, ondertitels of trailers juist of
-  beschikbaar zijn;
+- metagegevens, beoordelingen, cast, ondertitels, tijdstempels voor
+  overslaanknoppen of trailers juist of beschikbaar zijn;
 - kijkvoortgang, beoordelingen of synchronisatie nooit verloren gaan, dubbel
   voorkomen, vertraagd of inconsistent zijn; of
 - de Dienst voldoet aan jouw specifieke technische of compatibiliteitseisen.
@@ -233,13 +300,13 @@ We garanderen niet dat:
 Niets in deze Voorwaarden sluit een garantie of consumentenrecht uit dat het
 toepasselijke recht ons niet toestaat uit te sluiten.
 
-## 16. Beperking van aansprakelijkheid
+## 18. Beperking van aansprakelijkheid
 
 Voor zover wettelijk toegestaan zijn BaBaSaMa en zijn bijdragers niet
 aansprakelijk voor indirecte, incidentele, bijzondere, punitieve of gevolgschade,
 noch voor verlies van gegevens, media, voortgang, beoordelingen, winst,
 inkomsten, goodwill of bedrijfsonderbreking, voortvloeiend uit of samenhangend
-met de Dienst.
+met de Dienst of een dienst van derden die je via de Dienst gebruikt.
 
 Behalve waar Apple's standaard-EULA de aansprakelijkheid voor de Apple-binary
 regelt, geldt dat, waar aansprakelijkheid niet kan worden uitgesloten maar wel
@@ -256,7 +323,7 @@ rechtsgeldig kan worden beperkt. Sommige rechtsgebieden staan bepaalde
 uitsluitingen niet toe, waardoor delen van deze paragraaf mogelijk niet op jou
 van toepassing zijn.
 
-## 17. Apple-specifieke erkenningen
+## 19. Apple-specifieke erkenningen
 
 Voor een via Apple verkregen Edendale-app geldt uitsluitend Apple's
 standaard-EULA voor de binarylicentie, inclusief de regels over toegestaan
@@ -268,12 +335,13 @@ overeenkomst van Apple voor.
 BaBaSaMa blijft de aanbieder van de app en het supportcontact voor Edendale:
 **long@babasama.com**.
 
-## 18. Opschorting en beëindiging
+## 20. Opschorting en beëindiging
 
-Je kunt op elk moment stoppen met het gebruik van de Dienst. Wij kunnen de
-toegang tot de website beperken als je deze Voorwaarden wezenlijk schendt, een
-veiligheids- of juridisch risico veroorzaakt, of de site of de host ervan
-misbruikt.
+Je kunt op elk moment stoppen met het gebruik van de Dienst. Om de toegang van
+Edendale tot een gekoppeld opslagaccount te beëindigen, meld je je af in
+Edendale of trek je de toegang in via de aanbieder. Wij kunnen de toegang tot de
+website beperken als je deze Voorwaarden wezenlijk schendt, een veiligheids- of
+juridisch risico veroorzaakt, of de site of de host ervan misbruikt.
 
 Bij beëindiging eindigt elke niet aan Apple gerelateerde licentie uit deze
 Voorwaarden. Voor de licentie op de Apple-binary blijft Apple's standaard-EULA
@@ -282,7 +350,7 @@ eigendom, garantie-uitsluitingen, aansprakelijkheidsbeperkingen, toepasselijk
 recht en voorwaarden van derden — blijven van kracht. De MPL 2.0-broncodelicentie
 blijft onderworpen aan haar eigen bepalingen.
 
-## 19. Toepasselijk recht en geschillen
+## 21. Toepasselijk recht en geschillen
 
 Behalve voor de licentie op de Apple-binary, waarvoor Apple's standaard-EULA
 geldt, worden deze Voorwaarden beheerst door het recht van **Singapore**, zonder
@@ -295,7 +363,7 @@ redelijke inspanning te leveren om de kwestie te goeder trouw per e-mail op te
 lossen, tenzij spoedeisende voorziening of het toepasselijke recht dat
 onpraktisch maakt.
 
-## 20. Wijzigingen in deze Voorwaarden
+## 22. Wijzigingen in deze Voorwaarden
 
 We kunnen deze Voorwaarden bijwerken wanneer de Dienst, aanbieders of wettelijke
 eisen veranderen. We passen dan de datum **Laatst bijgewerkt** aan en informeren
@@ -303,7 +371,7 @@ waar passend aanvullend. Ga je niet akkoord met de herziene Voorwaarden, dan moe
 je het gebruik van de Dienst staken. Wijzigingen ontnemen geen rechten waarvan
 niet rechtsgeldig afstand kan worden gedaan.
 
-## 21. Contact
+## 23. Contact
 
 Vragen over deze Voorwaarden kun je sturen naar:
 
